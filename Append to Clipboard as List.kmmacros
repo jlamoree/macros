@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>603871016.88284695</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>56</integer>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%SystemClipboard%</string>
+						<key>Variable</key>
+						<string>Result</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>Copy</string>
+						<key>ActionUID</key>
+						<integer>57</integer>
+						<key>MacroActionType</key>
+						<string>ClipboardSwitcherMacroAction</string>
+						<key>Name</key>
+						<string>ED4FCC26-BE92-4F69-9692-89830A1AA1D2</string>
+						<key>RedundandDisplayName</key>
+						<string>ClipboardRegister</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>58</integer>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string> %NamedClipboard%ClipboardRegister%</string>
+						<key>Variable</key>
+						<string>Result</string>
+						<key>Where</key>
+						<string>Append</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>59</integer>
+						<key>JustDisplay</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetClipboardToText</string>
+						<key>Text</key>
+						<string>%Variable%Result%</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>631897488.58974397</real>
+				<key>ModificationDate</key>
+				<real>631905218.86727095</real>
+				<key>Name</key>
+				<string>Append to Clipboard as List</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>8</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>2304</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>34646FC4-8473-47F1-9621-1FE421D3D5F7</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Clipboard Hacks</string>
+		<key>ToggleMacroUID</key>
+		<string>B39AA3EE-7ACD-4808-AF67-1342DCC5D81E</string>
+		<key>UID</key>
+		<string>B3FB1643-297E-4A6B-81A7-A61313B4656B</string>
+	</dict>
+</array>
+</plist>

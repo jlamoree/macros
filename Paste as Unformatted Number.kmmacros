@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>603871016.88284695</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>IgnoreCaseRegEx</string>
+						<key>ActionUID</key>
+						<integer>1218</integer>
+						<key>Destination</key>
+						<string>Clipboard</string>
+						<key>MacroActionType</key>
+						<string>SearchReplace</string>
+						<key>Replace</key>
+						<string></string>
+						<key>Search</key>
+						<string>[^0-9.]</string>
+						<key>Source</key>
+						<string>Clipboard</string>
+						<key>Which</key>
+						<string>All</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>Paste</string>
+						<key>ActionUID</key>
+						<integer>846</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>CutCopyPaste</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>670007876.010553</real>
+				<key>ModificationDate</key>
+				<real>670008471.78819704</real>
+				<key>Name</key>
+				<string>Paste as Unformatted Number</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>32</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>6400</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>D0A83578-8ACA-405E-AD7D-61076446E9E2</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Clipboard Hacks</string>
+		<key>ToggleMacroUID</key>
+		<string>B39AA3EE-7ACD-4808-AF67-1342DCC5D81E</string>
+		<key>UID</key>
+		<string>B3FB1643-297E-4A6B-81A7-A61313B4656B</string>
+	</dict>
+</array>
+</plist>
